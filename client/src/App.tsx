@@ -1,11 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Display from './Display';
 
 function App() {
   return (
-    <Display />
+    <div style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+    }}>
+      <Display />
+    </div>
   );
 }
 
