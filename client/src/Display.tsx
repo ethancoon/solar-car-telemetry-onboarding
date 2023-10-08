@@ -2,11 +2,6 @@ import { useEffect, useState } from 'react';
 import './Display.css'
 import { io } from "socket.io-client";
 
-
-// To-do: take in data from the server and display it through this component
-
-
-
 interface Message {
     name: string;
     value: number;
